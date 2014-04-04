@@ -1,0 +1,318 @@
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #CC0000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #000000;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+a
+{
+	color: #CC0000;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	overflow: hidden;
+	margin: 0em auto;
+	width: 1000px;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+.boxA,  .boxB,  .boxC
+{
+	width: 300px;
+}
+
+.boxA,  .boxB
+{
+	float: left;
+	margin-right: 50px;
+}
+
+.boxC
+{
+	float: right;
+}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+
+#wrapper
+{
+	background: #FFF
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+{
+	background: url(images/taipei101.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 10px solid #CC0000;
+}
+
+#header
+{
+	position: relative;
+	padding: 5em 0em;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+{
+}
+
+#logo h1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1em 1em;
+	background: #CC0000;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+{
+	position: absolute;
+	top: 4em;
+	right: 0;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	font-weight: 600;
+	color: #FFF;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: #CC0000;
+	border-radius: 5px;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+{
+	padding: 10em 0em;
+}
+
+#banner span
+{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	font-size: 2.5em;
+	color: #FFF;
+}
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	padding: 2em 1em 1em 2em;
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: rgba(255,255,255,0.6);
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title
+{
+	margin-bottom: 3em;
+	text-transform: uppercase;
+}
+
+.title h2
+{
+	font-size: 2.8em;
+	font-weight: 700;
+}
+
+.title .byline
+{
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+
+/*********************************************************************************/
+/* Staff                                                                         */
+/*********************************************************************************/
+
+	#staff
+{
+	padding: 5em 0em;
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+#welcome
+{
+	padding: 5em 0em 5em 0em;
+	border-top: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+}
+#welcome ol
+{
+	padding-left: 20em;
+	text-align: left;
+	font-size:1em;
+	line-height: 180%;
+
+}
+
+#welcome p
+{
+	padding-left: 8em;
+	padding-right: 8em;
+	padding-bottom: 2em;
+}
+
+#box
+{
+	background: url(images/tree_bark.png);
+	background-size: 400px 100px;
+	border-radius:0.5em;
+
+}
+
+#box .my
+{
+	padding-left: 5em;
+	float: left
+} 
+
+
+/*********************************************************************************/
+/* Contact Me Page                                                                 */
+/*********************************************************************************/
+#content{
+	background: url(images/food.png);
+}
+#form{
+	width:500px;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin-right: 400px;
+	margin-left: 400px;
+	border-radius:0.5em;
+
+}
+fieldset{
+	border-radius:0.5em;
+	background-color: #FFF;
+}
+
+.heading{
+	font-weight: bold;
+}
