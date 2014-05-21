@@ -94,7 +94,7 @@ window.fbAsyncInit = function () {
                     });
 
 
-                    /*FB.ui({
+                   /* FB.ui({
                         method: 'share',
                         href: 'https://kangw3n.github.io/facebook/',
                     }, function (response) {});*/
@@ -102,25 +102,25 @@ window.fbAsyncInit = function () {
 					
 
 
-                    /*FB.ui({
+                    FB.ui({
                         method: 'send',
                         link: 'http://www.nytimes.com/2011/06/15/arts/people-argue-just-to-win-scholars-assert.html',
-                    });*/
+                    });
 
-					/*FB.api('/me/likes', function (response) {
+					FB.api('/me/likes', function (response) {
                         for (var i = 0; i < response.length; i++){
 							console.log(response.data.name);
 							}
-                    });*/
+                    });
 					
-					/*FB.api('/me/picture?type=normal', function(response) { // normal/large/squere 
+					FB.api('/me/picture?type=normal', function(response) { // normal/large/squere 
 						var str="<img src="+ response.data.url +">";
 						$('body').append(str);
-					});*/
+					});
 					
 					
 					
-					/*FB.api('/me/photos', 'post', {
+					FB.api('/me/photos', 'post', {
 						name: 'this is a new photo',
 						message: 'this is parse photo',
 						url: "img/overlay.png"
@@ -131,7 +131,7 @@ window.fbAsyncInit = function () {
 							alert('Post ID: ' + response.id);
 						}
 					});
-*/					
+					
 
 
 
@@ -142,9 +142,9 @@ window.fbAsyncInit = function () {
                         if (response.authResponse) { // if user login to your apps right after handle an event
                             window.location.reload();
                         };
-                    }/*, {
+                    }, {
                         scope: 'user_about_me,email,user_location,user_photos,publish_actions,user_birthday,user_likes'
-                    }*/);
+                    });
                 } else {
                     console.log("this isn't logged in to Facebook.");
                     FB.login(function (response) {
